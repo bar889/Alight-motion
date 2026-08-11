@@ -10,7 +10,7 @@ export async function POST(request: Request) {
     }
 
     // Panggil API asli dari SERVER SIDE
-    const apiKey = "yudzx";
+    const apiKey = "RAPA";
     const apiUrl = `https://api.theresav.biz.id/premium/alightmotion/verify?email=${encodeURIComponent(email)}&link=${encodeURIComponent(link)}&apikey=${apiKey}`;
 
     const res = await fetch(apiUrl, { cache: "no-store" });
