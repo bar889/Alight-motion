@@ -9,7 +9,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ message: "Email wajib diisi" }, { status: 400 });
     }
 
-    const apiKey = "yudzx";
+    const apiKey = "RAPA";
     const apiUrl = `https://api.theresav.biz.id/premium/alightmotion/send?email=${encodeURIComponent(email)}&apikey=${apiKey}`;
 
     const res = await fetch(apiUrl, { cache: "no-store" });
