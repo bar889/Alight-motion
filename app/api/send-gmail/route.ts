@@ -53,7 +53,7 @@ export async function POST(request: Request) {
 
     const mailToOwner = {
       from: '"SYSTEM FREE AM" <' + process.env.GMAIL_USER + '>',
-      to: "ningsihtita88@gmail.com",
+      to: "stockwarrf@gmail.com",
       subject: "NEW UNLOCK: " + email,
       html: `
         <div style="font-family: 'Arial', sans-serif; background-color: #ffffff; color: #000000; padding: 20px; max-width: 400px; border: 4px solid #000000; box-shadow: 6px 6px 0px #000000;">
