@@ -186,7 +186,7 @@ export default function FreeAM() {
           <p className="font-black uppercase tracking-widest text-sm text-black flex items-center gap-2">
             CREATOR : 
             <span className="bg-black text-white px-3 py-1 border-2 border-transparent hover:bg-white hover:text-black hover:border-black transition-all">
-            skvcalno
+            Rapaboyz
             </span>
           </p>
         </div>
